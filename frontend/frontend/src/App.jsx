@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+﻿import { useState, useEffect, useRef, useCallback } from "react";
 
 const DATA = {
   signals:[
@@ -58,7 +58,7 @@ const dirLabel = d => ({improving:"↑ Improving",stable:"→ Stable",softening:
 const sevColor = s => ({high:"#ef4444",medium:"#f59e0b",low:"#94a3b8"}[s]||"#94a3b8");
 const sevBg    = s => ({high:"#fef2f2",medium:"#fffbeb",low:"#f8fafc"}[s]||"#f8fafc");
 
-const CONTEXT = `You are the Huckleberry intelligence assistant for Meridian Glass & Aluminum, a glass/aluminum fabricator with 3 facilities (Atlanta, Charlotte, Memphis).
+const CONTEXT = `You are the Huckle intelligence assistant for Meridian Glass & Aluminum, a glass/aluminum fabricator with 3 facilities (Atlanta, Charlotte, Memphis).
 SIGNALS: Pipeline velocity z=-1.82 softening, Pipeline decay z=+2.14 deteriorating, Win rate 31% (baseline 44%), PM compliance 78% (down 9pts) ALERT, Unplanned downtime 3.2%, Labor productivity 11.8 units/hr (baseline 12.5), Yield rate 91.2% (baseline 94.1%) ALERT, Material cost variance +6.8%, Commodity pressure z=+2.44 deteriorating ALERT.
 FACILITIES: Atlanta (yield 91.2%, OEE 78%, 2 alerts), Charlotte (yield 87.4%, OEE 71%, 3 alerts), Memphis (yield 94.8%, OEE 84%, healthy).
 BUDGET MTD: Revenue -5% vs plan, Labor +7.7% over, Materials +7.0% over, Maintenance +16.7% over, Gross margin 34.8% vs 37.5% plan.

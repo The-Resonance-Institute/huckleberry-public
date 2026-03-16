@@ -1,10 +1,10 @@
-# Huckleberry
+# Huckle
 
 **Decision intelligence for industrial operations.**
 
-Huckleberry connects to the operational systems a company already runs, watches all of them simultaneously, and tells senior leaders what is about to happen — with evidence, financial scenarios, and a recommended action.
+Huckle connects to the operational systems a company already runs, watches all of them simultaneously, and tells senior leaders what is about to happen — with evidence, financial scenarios, and a recommended action.
 
-**[→ Live Demo — Meridian Glass & Aluminum](https://huckleberry-public.vercel.app)**
+**[→ Live Demo — Meridian Glass & Aluminum](https://huckle-public.vercel.app)**
 
 ---
 
@@ -27,7 +27,7 @@ Financial:      +$340K revenue protected · $28K labor cost · Net: +$312K
 
 This is what the daily briefing looks like. Not a dashboard. Not a report. A typed prediction with a recommended action and the financial case for taking it.
 
-**[→ See it live](https://huckleberry-public.vercel.app)**
+**[→ See it live](https://huckle-public.vercel.app)**
 
 ---
 
@@ -39,15 +39,15 @@ Demand softens in the pipeline 60 days before it shows in backlog. Commodity pri
 
 Good operators feel this coming. But they're reading three to five disconnected systems, running the numbers in their head, and making judgment calls on incomplete, lagging data.
 
-Huckleberry connects those systems, reads them simultaneously, and delivers the signal before the event.
+Huckle connects those systems, reads them simultaneously, and delivers the signal before the event.
 
 ---
 
 ## Quick Start — Run the Demo Locally
 
 ```bash
-git clone https://github.com/The-Resonance-Institute/huckleberry-public.git
-cd huckleberry-public
+git clone https://github.com/The-Resonance-Institute/huckle-public.git
+cd huckle-public
 pip install -r requirements.txt
 python demo.py
 ```
@@ -159,10 +159,10 @@ After 18 months of recorded decisions and validated outcomes, the ledger is the 
 
 ## CASA Governance
 
-Every agent action in Huckleberry passes through [CASA Runtime](https://github.com/The-Resonance-Institute/casa-runtime) before execution — a deterministic pre-execution governance gate that evaluates every action as a 9-field Canonical Action Vector and returns ACCEPT, GOVERN, or REFUSE before anything executes.
+Every agent action in Huckle passes through [CASA Runtime](https://github.com/The-Resonance-Institute/casa-runtime) before execution — a deterministic pre-execution governance gate that evaluates every action as a 9-field Canonical Action Vector and returns ACCEPT, GOVERN, or REFUSE before anything executes.
 
 ```
-Huckleberry detects signal
+Huckle detects signal
          ↓
 Prediction engine proposes action
          ↓
@@ -232,10 +232,10 @@ Built by [The Resonance Institute, LLC](https://theresonanceinstitute.com).
 For enterprise pilot inquiries, partnership discussions, or acquisition conversations:
 **[contact@resonanceinstitutellc.com](mailto:contact@resonanceinstitutellc.com)**
 
-If you experiment with Huckleberry in an operational context, open an issue and share what you find.
+If you experiment with Huckle in an operational context, open an issue and share what you find.
 
 ---
 
-*Huckleberry platform code is proprietary. The connector framework in this repository is open for community contributions. Signal engine, prediction engine, simulation engine, decision ledger, and intelligence agent are maintained in a private repository.*
+*Huckle platform code is proprietary. The connector framework in this repository is open for community contributions. Signal engine, prediction engine, simulation engine, decision ledger, and intelligence agent are maintained in a private repository.*
 
 *CASA architecture covered by USPTO Provisional Patent #63/987,813. © 2026 The Resonance Institute, LLC.*

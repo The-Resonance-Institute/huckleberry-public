@@ -144,7 +144,7 @@ export default function App() {
       {/* TOP BAR */}
       <div style={topBar}>
         <div style={{fontWeight:700,fontSize:15,color:"#f1f5f9"}}>
-          <span style={{color:"#3b82f6"}}>H</span>uckleberry
+          <span style={{color:"#3b82f6"}}>H</span>uckle
         </div>
         <div style={{width:1,height:24,background:"#1e293b"}} />
         <div style={{fontSize:12,color:"#64748b"}}>Meridian Glass & Aluminum</div>
